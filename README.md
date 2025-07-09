@@ -36,7 +36,7 @@ The script automatically checks for administrator privileges and requests elevat
 3. Alternatively, launch it from PowerShell with administrative privileges using the command below:
 
 ```powershell
-powershell -Command "iwr https://raw.githubusercontent.com/fredystar200/Restart-Bonjour-and-Apple-Mobile-Device-Services/main/Restart-Bonjour-and-Apple-Mobile-Device-Services.bat -OutFile $env:TEMP\rbab.bat; Start-Process -FilePath $env:TEMP\rbab.bat -Verb RunAs"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/fredystar200/Restart-Bonjour-and-Apple-Mobile-Device-Services/main/Restart%20Bonjour%20and%20Apple%20Mobile%20Device%20Services.bat" -OutFile "$env:TEMP\Restart Bonjour and Apple Mobile Device Services.bat"; Start-Process -FilePath "$env:TEMP\Restart Bonjour and Apple Mobile Device Services.bat" -Verb RunAs
 ```
 
 4. The script will stop and start the two services automatically.
