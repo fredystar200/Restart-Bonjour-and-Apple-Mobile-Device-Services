@@ -29,7 +29,7 @@ The script automatically checks for administrator privileges and requests elevat
 
 ## Usage
 
-1. Download or copy the script into a file named `Restart-Bonjour-and-Apple-Mobile-Device-Services.bat`.
+1. [**Download the script here**](https://github.com/fredystar200/Restart-Bonjour-and-Apple-Mobile-Device-Services/releases)
 
 2. Run it directly by **double-clicking** or **right-click > Run as administrator**.
 
